@@ -1,0 +1,201 @@
+{
+    "Accessories": [
+        {
+            "Name" : "Fire Control Unit",
+            "Objects": [
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "P320 Fire Control Unit - Black",
+                    "UID": 100000,
+                    "Price": 119.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/6ck92g4bdwp0h2e8fpcty/320-fcu-black.webp?rlkey=zrl7wrxseifwa6oisbqobbh06&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": true
+                },
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "P320 Fire Control Unit - Gold" ,
+                    "UID": 100001, 
+                    "Price": 119.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/d14e4smj783lf9s2s5z79/p320-fcu.webp?rlkey=97y9hppkfkn3nkv2jfu58d7y5&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": true
+                }
+            ]
+        },
+        {
+            "Name" : "Grip Mods",
+            "Objects": [
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "P320 XCARRY LASER ENGRAVED LXG - BLACK",
+                    "UID": 200000,
+                    "Price": 69.99,
+                    "URL": "https://www.sigsauer.com/media/configurator/P320/images/grip-mod/8900820-thumb.png",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": true
+                },
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "P320 XCARRY LASER ENGRAVED LXG GRIP MODULE - COYOTE 3.9IN",
+                    "UID": 200001,
+                    "Price": 99.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/hhxg000ztyl6kf928ffin/p320-xcarry-laser-engraved-lxg-grip-module-coyote-39in.webp?rlkey=5jfw0mjp11a75dhbiywu7qz2v&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": true
+                },
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "P320 AXG CARRY MEDIUM GRIP MODULE-TITANIUM CERAKOTE-BLK PANELS",
+                    "UID": 200002,
+                    "Price": 399.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/3uheoi5k6xfypxw03f2je/p320-axg-carry-medium-grip-module-titanium-cerakote-blk-panels.webp?rlkey=y5a1hlne5rj7ak4xsmctjc7xv&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": true
+                }
+            ]
+        },
+        {
+            "Name" : "Slides",
+            "Objects": [
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "STANDARD 4.7IN SLIDE ASSY - 9 - BLACK",
+                    "UID": 300000,
+                    "Price": 279.99,
+                    "URL": "https://www.sigsauer.com/media/configurator/P320/images/slide/8900113-thumb.png",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": true
+                },
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "SPECTRE 3.9 IN SLIDE ASSEMBLY - COYOTE",
+                    "UID": 300001,
+                    "Price": 449.99,
+                    "URL": "https://www.sigsauer.com/media/configurator/P320/images/slide/8900841-thumb.png",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": true
+                },
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "SPECTRE 3.9 IN SLIDE ASSEMBLY - Tungsten",
+                    "UID": 300002,
+                    "Price": 449.99,
+                    "URL": "https://www.sigsauer.com/media/configurator/P320/images/slide/8900840-thumb.png",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": true
+                }
+            ]
+        },
+        {
+            "Name" : "Barrels",
+            "Objects": [
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "FULL BARREL 4.7IN - BLACK",
+                    "UID": 400000,
+                    "Price": 179.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/comgclkwkx6mvtb42hkjz/P320_FULL_SIZE_9MM_THREADED_BARREL.webp?rlkey=j8h3qj1r6gzwpdjbrfrd9g2q9&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": true
+                },
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "P320 COMPACT, CARRY GOLD 9MM THREADED BARREL, NO LCI, 4.6IN",
+                    "UID": 400001,
+                    "Price": 279.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/3xnwglps5ep1hms1ie0ji/p320-compact-gold-9mm-barrel.webp?rlkey=v7votttt91fn4kcyd8zyx1ddq&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": true
+                },
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "COMP/CARRY BARREL 3.9IN - GOLD",
+                    "UID": 400002,
+                    "Price": 229.99,
+                    "URL": "https://www.sigsauer.com/media/configurator/P320/images/barrels/8900790-thumb.png",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
+                }
+            ]
+        },
+        {
+            "Name" : "Guides & Springs",
+            "Objects": [
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "RECOIL ASSEMBLY - 4.7IN",
+                    "UID": 500000,
+                    "Price": 49.99,
+                    "URL": "https://www.sigsauer.com/media/configurator/P320/images/guides-springs/RSA-320F-9-thumb.png",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
+                },
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "RECOIL ASSEMBLY - 3.6IN",
+                    "UID": 500001,
+                    "Price": 39.99,
+                    "URL": "https://www.sigsauer.com/media/configurator/P320/images/guides-springs/RSA-320SC-9-357-40-thumb.png",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
+                }
+            ]
+        },
+        {
+            "Name" : "Magazine",
+            "Objects": [
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "P320 FULL-SIZE 10-ROUND 9MM COYOTE MAGAZINE",
+                    "UID": 600000,
+                    "Price": 49.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/qkdfwektfsxd7mjq2xg20/p320-full-size-10-round-9mm-coyote-magazine.webp?rlkey=qnftg32fglf6tnytc61qcewh8&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
+                },
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "P320 X-FIVE LEGION 17RD MAGAZINE",
+                    "UID": 600001,
+                    "Price": 59.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/hc3wrguh7tsr0rey3vw9r/p320-x-five-legion-17rd-magazine.webp?rlkey=zeom24q8ixb8uk6kskgkkvslg&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
+                },
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "FULL 21RD MAGAZINE - BLACK",
+                    "UID": 600002,
+                    "Price": 49.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/mz3trushe7hge4b5ngmug/mag-mod-f-9-21.webp?rlkey=2q3fppz6r4p1lludnytdzw6fi&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
+                }
+            ]
+        },
+        {
+            "Name" : "Optics",
+            "Objects": [
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "Romeo1PRO 3MOA - Black",
+                    "UID": 700000,
+                    "Price": 359.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/cmfq456ys3upltgw3mk21/Romeo1PRO-3MOA-Black.png?rlkey=s6qyjhuszc0owudgakb37mpnu&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
+                },
+                { 
+                    "Company": "Sig Sauer",
+                    "ProductName": "Romeo1PRO 6MOA - FDE",
+                    "UID": 700001,
+                    "Price": 379.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/wzevo8sxj3s9n4zmeordy/Romeo1PRO-6MOA-FDE.png?rlkey=4y0dqvb8k2r616u6n4crxsg88&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
+                }
+            ]
+        }
+    ]
+}

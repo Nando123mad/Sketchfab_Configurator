@@ -1,0 +1,322 @@
+.App {
+  max-height: 100%;
+  height:100%;
+  min-width: 100%;
+  width:100%;
+  /* Make sure the yellow radial gradients are on top of the radial gradient background */
+  background: 
+              radial-gradient(circle at bottom right, rgba(255, 192, 34, 0.12) 0%, rgba(0, 0, 0, 0.1) 25%),
+              radial-gradient(circle at top left,  rgb(255, 192, 34, 0.12) 0%, rgba(0, 0, 0, 0.1) 25%),
+              radial-gradient(circle at center, rgba(255, 255, 255, 0.05) 0%, rgba(13, 13, 13, 0.1) 100%);
+              /* background-size: 50%;
+              background-position: center;
+              background-repeat: no-repeat; */
+}
+
+
+/* Splash Loading screen Logo */
+#splash-loading-img{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  animation: glowEffect 1s ease-in-out infinite alternate;
+  z-index: 99;
+  background: #0D0D0D;
+  background-image: radial-gradient(circle at center, rgba(255, 255, 255, 0.05) 0%, rgba(13, 13, 13, 0.1) 100%);;
+
+}
+
+@keyframes glowEffect {
+  from{
+    -webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.50));
+  }
+  to{
+    -webkit-filter: drop-shadow(0px 0px 5px rgba(255,255,255,0.50));
+  }
+}
+
+
+/* Loading Text */
+#load {
+  position:absolute;
+  width:600px;
+  height:36px;
+  left:50%;
+  top:60%;
+  margin-left:-300px;
+  overflow:visible;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  cursor:default;
+}
+
+#load div {
+  position:absolute;
+  width:20px;
+  height:36px;
+  opacity:0;
+  font-family:Helvetica, Arial, sans-serif;
+  animation:move 2s linear infinite;
+  -o-animation:move 2s linear infinite;
+  -moz-animation:move 2s linear infinite;
+  -webkit-animation:move 2s linear infinite;
+  transform:rotate(180deg);
+  -o-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  color:#f6f6f6;
+}
+
+#load div:nth-child(2) {
+  animation-delay:0.2s;
+  -o-animation-delay:0.2s;
+  -moz-animation-delay:0.2s;
+  -webkit-animation-delay:0.2s;
+}
+#load div:nth-child(3) {
+  animation-delay:0.4s;
+  -o-animation-delay:0.4s;
+  -webkit-animation-delay:0.4s;
+  -webkit-animation-delay:0.4s;
+}
+#load div:nth-child(4) {
+  animation-delay:0.6s;
+  -o-animation-delay:0.6s;
+  -moz-animation-delay:0.6s;
+  -webkit-animation-delay:0.6s;
+}
+#load div:nth-child(5) {
+  animation-delay:0.8s;
+  -o-animation-delay:0.8s;
+  -moz-animation-delay:0.8s;
+  -webkit-animation-delay:0.8s;
+}
+#load div:nth-child(6) {
+  animation-delay:1s;
+  -o-animation-delay:1s;
+  -moz-animation-delay:1s;
+  -webkit-animation-delay:1s;
+}
+#load div:nth-child(7) {
+  animation-delay:1.2s;
+  -o-animation-delay:1.2s;
+  -moz-animation-delay:1.2s;
+  -webkit-animation-delay:1.2s;
+}
+
+@keyframes move {
+  0% {
+    left:0;
+    opacity:0;
+  }
+  35% {
+    left: 41%; 
+    -moz-transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+    -o-transform:rotate(0deg);
+    transform:rotate(0deg);
+    opacity:1;
+  }
+  65% {
+    left:59%; 
+    -moz-transform:rotate(0deg); 
+    -webkit-transform:rotate(0deg); 
+    -o-transform:rotate(0deg);
+    transform:rotate(0deg); 
+    opacity:1;
+  }
+  100% {
+    left:100%; 
+    -moz-transform:rotate(-180deg); 
+    -webkit-transform:rotate(-180deg); 
+    -o-transform:rotate(-180deg); 
+    transform:rotate(-180deg);
+    opacity:0;
+  }
+}
+
+@-moz-keyframes move {
+  0% {
+    left:0; 
+    opacity:0;
+  }
+  35% {
+    left:41%; 
+    -moz-transform:rotate(0deg); 
+    transform:rotate(0deg);
+    opacity:1;
+  }
+  65% {
+    left:59%; 
+    -moz-transform:rotate(0deg); 
+    transform:rotate(0deg);
+    opacity:1;
+  }
+  100% {
+    left:100%; 
+    -moz-transform:rotate(-180deg); 
+    transform:rotate(-180deg);
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes move {
+  0% {
+    left:0; 
+    opacity:0;
+  }
+  35% {
+    left:41%; 
+    -webkit-transform:rotate(0deg); 
+    transform:rotate(0deg); 
+    opacity:1;
+  }
+  65% {
+    left:59%; 
+    -webkit-transform:rotate(0deg); 
+    transform:rotate(0deg); 
+    opacity:1;
+  }
+  100% {
+    left:100%;
+    -webkit-transform:rotate(-180deg); 
+    transform:rotate(-180deg); 
+    opacity:0;
+  }
+}
+
+@-o-keyframes move {
+  0% {
+    left:0; 
+    opacity:0;
+  }
+  35% {
+    left:41%; 
+    -o-transform:rotate(0deg); 
+    transform:rotate(0deg); 
+    opacity:1;
+  }
+  65% {
+    left:59%; 
+    -o-transform:rotate(0deg); 
+    transform:rotate(0deg); 
+    opacity:1;
+  }
+  100% {
+    left:100%; 
+    -o-transform:rotate(-180deg); 
+    transform:rotate(-180deg); 
+    opacity:0;
+  }
+}
+/*  */
+
+
+
+.gunImg {
+  width: 580px;
+  z-index: 1;
+  position: relative;
+  top: 10vh;
+  align-self: center;
+  z-index: 2;
+}
+
+.LogoMark {
+  position: absolute;
+  width: 510px;
+  align-self: center;
+  position: relative;
+  z-index: 0;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+
+#api-frame{
+  border: none;
+  position: absolute;
+  width: 130% !important;
+  /* Changed for getting gun in center */
+  height: 100%;
+  top: 0;
+  left:0;
+  z-index: 0;
+  transition: width 2s;
+}
+
+
+
+.AmbientLeft {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1125px;
+  height: 800px;
+  z-index: -1;
+}
+
+.AmbientRight {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 1125px;
+  z-index: -1;
+}
+
+.MobileModal{
+  border: red solid 1px;
+  width: 50vw;
+  height: 10vh;
+}  
+.App:before{
+  left: 50%;
+  top: 50%;
+  width: 50vw;
+  height: 10vh;
+  border: solid red 1px;
+}
+.MobileModalParent{
+  position: absolute;
+
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
+  visibility: hidden;
+}
+
+.MobileModalChild{
+  position: relative;
+
+  font-family: 'stratum-2-web', sans-serif;
+  height:auto;
+  width: auto;
+  padding: 10px 25px;
+  background: #222;
+  color: #FCBC1C;
+  border: #4D3D11 1px solid;
+
+  visibility: hidden;
+}
+
+@media (max-width: 1151px) {
+  .App {display: none;}
+
+  .MobileModalParent, .MobileModalChild{
+    visibility: visible;
+  }
+
+  #api-frame{
+    width: 100% !important;
+  }
+}
+

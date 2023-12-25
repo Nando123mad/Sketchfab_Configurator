@@ -1,0 +1,161 @@
+{
+    "Model": 
+    {
+        "100000":
+        {
+            "Diffuse": "https://dl.dropboxusercontent.com/scl/fi/6xufaecq0envsxyphch3f/sig-p320_style-1_basecolor_flipped.png?rlkey=rf7c277syx03bey9ipuwdnsms&dl=0",
+            "Metallic": "https://dl.dropboxusercontent.com/scl/fi/fyy7zmrsax5j9wyvfy26u/sig-p320_style-1_metallic_flipped.png?rlkey=n8ngxp6j6eg55i3jxqnhkqznx&dl=0" ,
+            "Roughness": "https://dl.dropboxusercontent.com/scl/fi/fxbbvwrcme3acnt017o70/sig-p320_style-1_roughness_flipped.png?rlkey=kf32v8tpe080qq4lw2crdk38h&dl=0", 
+            "Normal": "https://dl.dropboxusercontent.com/scl/fi/ybqthmmuy7swss8t3ctoh/sig-p320_style-1_normal_flipped.png?rlkey=o3cbwt4j8ohrl1y4nm6x3fuxv&dl=0"
+        },
+        "100001":
+        {
+            "Diffuse": "",
+            "Metallic": "" ,
+            "Roughness": "", 
+            "Normal": ""
+        },
+        "200000":
+        {
+            "Diffuse": "https://dl.dropboxusercontent.com/scl/fi/6xufaecq0envsxyphch3f/sig-p320_style-1_basecolor_flipped.png?rlkey=rf7c277syx03bey9ipuwdnsms&dl=0",
+            "Metallic": "https://dl.dropboxusercontent.com/scl/fi/fyy7zmrsax5j9wyvfy26u/sig-p320_style-1_metallic_flipped.png?rlkey=n8ngxp6j6eg55i3jxqnhkqznx&dl=0" ,
+            "Roughness": "https://dl.dropboxusercontent.com/scl/fi/fxbbvwrcme3acnt017o70/sig-p320_style-1_roughness_flipped.png?rlkey=kf32v8tpe080qq4lw2crdk38h&dl=0", 
+            "Normal": "https://dl.dropboxusercontent.com/scl/fi/ybqthmmuy7swss8t3ctoh/sig-p320_style-1_normal_flipped.png?rlkey=o3cbwt4j8ohrl1y4nm6x3fuxv&dl=0"
+        },
+        "200001":
+        {
+            "Diffuse": "https://dl.dropboxusercontent.com/scl/fi/ojle51ldt52e9j03orrsr/sig-p320_style-2_basecolor_flipped.png?rlkey=st0fh5p5jiaq7k8mccc4scweo&dl=0",
+            "Metallic": "https://dl.dropboxusercontent.com/scl/fi/wr2ox71ix9igkj2kdd4nm/sig-p320_style-2_metallic_flipped.png?rlkey=kow3ogy990vtdxp0taxv21jga&dl=0" ,
+            "Roughness": "https://dl.dropboxusercontent.com/scl/fi/28m0ypiaeid8iaqlwj2q7/sig-p320_style-2_roughness_flipped.png?rlkey=m3vc0j0lt5qn4kb661z2rcgy7&dl=0", 
+            "Normal": "https://dl.dropboxusercontent.com/scl/fi/7hvgghz80hveki64lldbs/sig-p320_style-2_normal_flipped.png?rlkey=2xdj2oo1l41n04hxnptffgqyy&dl=0"
+        },
+        "200002":
+        {
+            "Diffuse": "https://dl.dropboxusercontent.com/scl/fi/t7xivjuz0tkuwo6ha25ho/sig-p320_style-3_basecolor_flipped.png?rlkey=canp88pokzqly9yji8y0ho8sh&dl=0",
+            "Metallic": "https://dl.dropboxusercontent.com/scl/fi/22ffdp5dhzo1f5i6ovsod/sig-p320_style-3_metallic_flipped.png?rlkey=dlq94koxlnuk52ygq8vn02wxs&dl=0" ,
+            "Roughness": "https://dl.dropboxusercontent.com/scl/fi/ec7zj5jvmxyontjda71tl/sig-p320_style-3_roughness_flipped.png?rlkey=qcoqied7c1z1l5gdcymebaqia&dl=0", 
+            "Normal": "https://dl.dropboxusercontent.com/scl/fi/smx1i9wdt20wi0cpfy6wy/sig-p320_style-3_normal_flipped.png?rlkey=1vcv6u7xsatyuh2690y9lmcjq&dl=0"
+        },
+        "200003":
+        {
+            "Diffuse": "",
+            "Metallic": "" ,
+            "Roughness": "", 
+            "Normal": ""
+        },
+        "300000":
+        {
+            "Diffuse": "https://dl.dropboxusercontent.com/scl/fi/6xufaecq0envsxyphch3f/sig-p320_style-1_basecolor_flipped.png?rlkey=rf7c277syx03bey9ipuwdnsms&dl=0",
+            "Metallic": "https://dl.dropboxusercontent.com/scl/fi/fyy7zmrsax5j9wyvfy26u/sig-p320_style-1_metallic_flipped.png?rlkey=n8ngxp6j6eg55i3jxqnhkqznx&dl=0" ,
+            "Roughness": "https://dl.dropboxusercontent.com/scl/fi/fxbbvwrcme3acnt017o70/sig-p320_style-1_roughness_flipped.png?rlkey=kf32v8tpe080qq4lw2crdk38h&dl=0", 
+            "Normal": "https://dl.dropboxusercontent.com/scl/fi/ybqthmmuy7swss8t3ctoh/sig-p320_style-1_normal_flipped.png?rlkey=o3cbwt4j8ohrl1y4nm6x3fuxv&dl=0"
+        },
+        "300001":
+        {
+            "Diffuse": "https://dl.dropboxusercontent.com/scl/fi/ojle51ldt52e9j03orrsr/sig-p320_style-2_basecolor_flipped.png?rlkey=st0fh5p5jiaq7k8mccc4scweo&dl=0",
+            "Metallic": "https://dl.dropboxusercontent.com/scl/fi/wr2ox71ix9igkj2kdd4nm/sig-p320_style-2_metallic_flipped.png?rlkey=kow3ogy990vtdxp0taxv21jga&dl=0" ,
+            "Roughness": "https://dl.dropboxusercontent.com/scl/fi/28m0ypiaeid8iaqlwj2q7/sig-p320_style-2_roughness_flipped.png?rlkey=m3vc0j0lt5qn4kb661z2rcgy7&dl=0", 
+            "Normal": "https://dl.dropboxusercontent.com/scl/fi/7hvgghz80hveki64lldbs/sig-p320_style-2_normal_flipped.png?rlkey=2xdj2oo1l41n04hxnptffgqyy&dl=0"
+        },
+        "300002":
+        {
+            "Diffuse": "https://dl.dropboxusercontent.com/scl/fi/t7xivjuz0tkuwo6ha25ho/sig-p320_style-3_basecolor_flipped.png?rlkey=canp88pokzqly9yji8y0ho8sh&dl=0",
+            "Metallic": "https://dl.dropboxusercontent.com/scl/fi/22ffdp5dhzo1f5i6ovsod/sig-p320_style-3_metallic_flipped.png?rlkey=dlq94koxlnuk52ygq8vn02wxs&dl=0" ,
+            "Roughness": "https://dl.dropboxusercontent.com/scl/fi/ec7zj5jvmxyontjda71tl/sig-p320_style-3_roughness_flipped.png?rlkey=qcoqied7c1z1l5gdcymebaqia&dl=0", 
+            "Normal": "https://dl.dropboxusercontent.com/scl/fi/smx1i9wdt20wi0cpfy6wy/sig-p320_style-3_normal_flipped.png?rlkey=1vcv6u7xsatyuh2690y9lmcjq&dl=0"
+        },
+        "300003":
+        {
+            "Diffuse": "",
+            "Metallic": "" ,
+            "Roughness": "", 
+            "Normal": ""
+        },
+        "300004":
+        {
+            "Diffuse": "",
+            "Metallic": "" ,
+            "Roughness": "", 
+            "Normal": ""
+        },
+        "400000":
+        {
+            "Diffuse": "https://dl.dropboxusercontent.com/scl/fi/6xufaecq0envsxyphch3f/sig-p320_style-1_basecolor_flipped.png?rlkey=rf7c277syx03bey9ipuwdnsms&dl=0",
+            "Metallic": "https://dl.dropboxusercontent.com/scl/fi/fyy7zmrsax5j9wyvfy26u/sig-p320_style-1_metallic_flipped.png?rlkey=n8ngxp6j6eg55i3jxqnhkqznx&dl=0" ,
+            "Roughness": "https://dl.dropboxusercontent.com/scl/fi/fxbbvwrcme3acnt017o70/sig-p320_style-1_roughness_flipped.png?rlkey=kf32v8tpe080qq4lw2crdk38h&dl=0", 
+            "Normal": "https://dl.dropboxusercontent.com/scl/fi/ybqthmmuy7swss8t3ctoh/sig-p320_style-1_normal_flipped.png?rlkey=o3cbwt4j8ohrl1y4nm6x3fuxv&dl=0"
+        },
+        "400001":
+        {
+            "Diffuse": "https://dl.dropboxusercontent.com/scl/fi/ojle51ldt52e9j03orrsr/sig-p320_style-2_basecolor_flipped.png?rlkey=st0fh5p5jiaq7k8mccc4scweo&dl=0",
+            "Metallic": "https://dl.dropboxusercontent.com/scl/fi/wr2ox71ix9igkj2kdd4nm/sig-p320_style-2_metallic_flipped.png?rlkey=kow3ogy990vtdxp0taxv21jga&dl=0" ,
+            "Roughness": "https://dl.dropboxusercontent.com/scl/fi/28m0ypiaeid8iaqlwj2q7/sig-p320_style-2_roughness_flipped.png?rlkey=m3vc0j0lt5qn4kb661z2rcgy7&dl=0", 
+            "Normal": "https://dl.dropboxusercontent.com/scl/fi/7hvgghz80hveki64lldbs/sig-p320_style-2_normal_flipped.png?rlkey=2xdj2oo1l41n04hxnptffgqyy&dl=0"
+        },
+        "400002":
+        {
+            "Diffuse": "https://dl.dropboxusercontent.com/scl/fi/t7xivjuz0tkuwo6ha25ho/sig-p320_style-3_basecolor_flipped.png?rlkey=canp88pokzqly9yji8y0ho8sh&dl=0",
+            "Metallic": "https://dl.dropboxusercontent.com/scl/fi/22ffdp5dhzo1f5i6ovsod/sig-p320_style-3_metallic_flipped.png?rlkey=dlq94koxlnuk52ygq8vn02wxs&dl=0" ,
+            "Roughness": "https://dl.dropboxusercontent.com/scl/fi/ec7zj5jvmxyontjda71tl/sig-p320_style-3_roughness_flipped.png?rlkey=qcoqied7c1z1l5gdcymebaqia&dl=0", 
+            "Normal": "https://dl.dropboxusercontent.com/scl/fi/smx1i9wdt20wi0cpfy6wy/sig-p320_style-3_normal_flipped.png?rlkey=1vcv6u7xsatyuh2690y9lmcjq&dl=0"
+        },
+        "500000":
+        {
+            "Diffuse": "https://dl.dropboxusercontent.com/scl/fi/6xufaecq0envsxyphch3f/sig-p320_style-1_basecolor_flipped.png?rlkey=rf7c277syx03bey9ipuwdnsms&dl=0",
+            "Metallic": "https://dl.dropboxusercontent.com/scl/fi/fyy7zmrsax5j9wyvfy26u/sig-p320_style-1_metallic_flipped.png?rlkey=n8ngxp6j6eg55i3jxqnhkqznx&dl=0" ,
+            "Roughness": "https://dl.dropboxusercontent.com/scl/fi/fxbbvwrcme3acnt017o70/sig-p320_style-1_roughness_flipped.png?rlkey=kf32v8tpe080qq4lw2crdk38h&dl=0", 
+            "Normal": "https://dl.dropboxusercontent.com/scl/fi/ybqthmmuy7swss8t3ctoh/sig-p320_style-1_normal_flipped.png?rlkey=o3cbwt4j8ohrl1y4nm6x3fuxv&dl=0"
+        },
+        "500001":
+        {
+            "Diffuse": "https://dl.dropboxusercontent.com/scl/fi/ojle51ldt52e9j03orrsr/sig-p320_style-2_basecolor_flipped.png?rlkey=st0fh5p5jiaq7k8mccc4scweo&dl=0",
+            "Metallic": "https://dl.dropboxusercontent.com/scl/fi/wr2ox71ix9igkj2kdd4nm/sig-p320_style-2_metallic_flipped.png?rlkey=kow3ogy990vtdxp0taxv21jga&dl=0" ,
+            "Roughness": "https://dl.dropboxusercontent.com/scl/fi/28m0ypiaeid8iaqlwj2q7/sig-p320_style-2_roughness_flipped.png?rlkey=m3vc0j0lt5qn4kb661z2rcgy7&dl=0", 
+            "Normal": "https://dl.dropboxusercontent.com/scl/fi/7hvgghz80hveki64lldbs/sig-p320_style-2_normal_flipped.png?rlkey=2xdj2oo1l41n04hxnptffgqyy&dl=0"
+        },
+        "600000":
+        {
+            "Diffuse": "https://dl.dropboxusercontent.com/scl/fi/6xufaecq0envsxyphch3f/sig-p320_style-1_basecolor_flipped.png?rlkey=rf7c277syx03bey9ipuwdnsms&dl=0",
+            "Metallic": "https://dl.dropboxusercontent.com/scl/fi/fyy7zmrsax5j9wyvfy26u/sig-p320_style-1_metallic_flipped.png?rlkey=n8ngxp6j6eg55i3jxqnhkqznx&dl=0" ,
+            "Roughness": "https://dl.dropboxusercontent.com/scl/fi/fxbbvwrcme3acnt017o70/sig-p320_style-1_roughness_flipped.png?rlkey=kf32v8tpe080qq4lw2crdk38h&dl=0", 
+            "Normal": "https://dl.dropboxusercontent.com/scl/fi/ybqthmmuy7swss8t3ctoh/sig-p320_style-1_normal_flipped.png?rlkey=o3cbwt4j8ohrl1y4nm6x3fuxv&dl=0"
+        },
+        "600001":
+        {
+            "Diffuse": "https://dl.dropboxusercontent.com/scl/fi/ojle51ldt52e9j03orrsr/sig-p320_style-2_basecolor_flipped.png?rlkey=st0fh5p5jiaq7k8mccc4scweo&dl=0",
+            "Metallic": "https://dl.dropboxusercontent.com/scl/fi/wr2ox71ix9igkj2kdd4nm/sig-p320_style-2_metallic_flipped.png?rlkey=kow3ogy990vtdxp0taxv21jga&dl=0" ,
+            "Roughness": "https://dl.dropboxusercontent.com/scl/fi/28m0ypiaeid8iaqlwj2q7/sig-p320_style-2_roughness_flipped.png?rlkey=m3vc0j0lt5qn4kb661z2rcgy7&dl=0", 
+            "Normal": "https://dl.dropboxusercontent.com/scl/fi/7hvgghz80hveki64lldbs/sig-p320_style-2_normal_flipped.png?rlkey=2xdj2oo1l41n04hxnptffgqyy&dl=0"
+        },
+        "600002":
+        {
+            "Diffuse": "https://dl.dropboxusercontent.com/scl/fi/t7xivjuz0tkuwo6ha25ho/sig-p320_style-3_basecolor_flipped.png?rlkey=canp88pokzqly9yji8y0ho8sh&dl=0",
+            "Metallic": "https://dl.dropboxusercontent.com/scl/fi/22ffdp5dhzo1f5i6ovsod/sig-p320_style-3_metallic_flipped.png?rlkey=dlq94koxlnuk52ygq8vn02wxs&dl=0" ,
+            "Roughness": "https://dl.dropboxusercontent.com/scl/fi/ec7zj5jvmxyontjda71tl/sig-p320_style-3_roughness_flipped.png?rlkey=qcoqied7c1z1l5gdcymebaqia&dl=0", 
+            "Normal": "https://dl.dropboxusercontent.com/scl/fi/smx1i9wdt20wi0cpfy6wy/sig-p320_style-3_normal_flipped.png?rlkey=1vcv6u7xsatyuh2690y9lmcjq&dl=0"
+        },
+        "700000":
+        {
+            "Diffuse": "",
+            "Metallic": "" ,
+            "Roughness": "", 
+            "Normal": ""
+        },
+        "700001":
+        {
+            "Diffuse": "",
+            "Metallic": "" ,
+            "Roughness": "", 
+            "Normal": ""
+        },
+        "800000":
+        {
+            "Diffuse": "https://dl.dropboxusercontent.com/scl/fi/6xufaecq0envsxyphch3f/sig-p320_style-1_basecolor_flipped.png?rlkey=rf7c277syx03bey9ipuwdnsms&dl=0",
+            "Metallic": "https://dl.dropboxusercontent.com/scl/fi/fyy7zmrsax5j9wyvfy26u/sig-p320_style-1_metallic_flipped.png?rlkey=n8ngxp6j6eg55i3jxqnhkqznx&dl=0" ,
+            "Roughness": "https://dl.dropboxusercontent.com/scl/fi/fxbbvwrcme3acnt017o70/sig-p320_style-1_roughness_flipped.png?rlkey=kf32v8tpe080qq4lw2crdk38h&dl=0", 
+            "Normal": "https://dl.dropboxusercontent.com/scl/fi/ybqthmmuy7swss8t3ctoh/sig-p320_style-1_normal_flipped.png?rlkey=o3cbwt4j8ohrl1y4nm6x3fuxv&dl=0"
+        }
+
+    }
+}
+
