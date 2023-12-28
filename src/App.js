@@ -31,7 +31,7 @@ function App() {
       <LoadingScreen/>
       <Header AccessoriesMenuVisibility={(value) => { setMenuVisability(value); setAnnotationVisibility(false)}} />
       <img className='LogoMark' src={LogoMark} alt="Logo Mark" />
-      {/* <Accessories AccessorySelection={(value)=>{ setAccessorySelection(value) }} AccessoryVisibility={(value)=>{ setAccessoryVisibility(value) }} AnnotationVisibility={(value)=>{ setAnnotationVisibility(value)}}  /> */}
+      <Accessories AccessorySelection={(value)=>{ setAccessorySelection(value) }} AccessoryVisibility={(value)=>{ setAccessoryVisibility(value) }} AnnotationVisibility={(value)=>{ setAnnotationVisibility(value)}}  />
       {/* <img className='gunImg' src={Gun} alt="Gun Image" /> */}
       <ModelViewerHandler AccessoriesMenuVisibility={MenuVisability} AccessorySelection={AccessorySelection} AccessoryVisibility={AccessoryVisibility} AnnotationVisibility={AnnotationVisibility} />
       {/* <img src={AmbientLeft} alt="Yellow Ambient Graphic" className='AmbientLeft' /> */}
