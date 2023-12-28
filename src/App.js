@@ -20,8 +20,8 @@ import LoadingScreen from './Componets/LoadingScreen';
 function App() {
   const [MenuVisability,setMenuVisability] = useState(true)
   //AccessorieID(int), ObjectID(int), TextureChange(bool)
-  const [AccessorySelection,setAccessorySelection] = useState([0, 0, true, 800000])
-  const [AccessoryVisibility,setAccessoryVisibility] = useState(7)
+  const [AccessorySelection,setAccessorySelection] = useState([0, 0, true, 1000000])
+  const [AccessoryVisibility,setAccessoryVisibility] = useState(9)
   const [AnnotationVisibility,setAnnotationVisibility] = useState(false)
 
   return (

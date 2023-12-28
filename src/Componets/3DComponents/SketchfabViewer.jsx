@@ -5,7 +5,8 @@ import Annotation from "../../Images/Annotation.png";
 
 // Our wonderful chair model
 // let MODEL_UID = "dd210b5271e244bf91b3cfe923aec6bd";
-let MODEL_UID = "388160ef3a1645f7a54aa39498554cef";
+let MODEL_UID = "7d4e643922474a44a69297713f68b93a";
+// 388160ef3a1645f7a54aa39498554cef
 // let MODEL_UID ="1b718a23d03e48d78366b388e2256eb6";
 
 // if(isMobile){
@@ -21,6 +22,9 @@ const useSketchfabViewer = () => {
   const [api, setApi] = useState();
   const [nodes, setNodes] = useState();
   var [itemsCount, setItemsCount] = useState([]);
+  var [opticsCount, setOpticsCount] = useState([]);
+  var [suppressorCount, setSuppressorCount] = useState([]);
+  var [lightCount, setLightCount] = useState([]);
   const [materials, setMaterials] = useState();
   const [textures, setTextures] = useState();
   const [annotations, setAnnotations] = useState();
@@ -102,7 +106,7 @@ const useSketchfabViewer = () => {
             let j = 16;
             for (let i = 0; i < _materials.length; i++) {
               let m = _materials[i];
-              // console.log(m.name, m);
+              console.log(m.name, m);
               _textures[m.name] = m.channels.AlbedoPBR.texture;
             }
             setTextures(_textures);
@@ -156,11 +160,24 @@ const useSketchfabViewer = () => {
           });
           _api.getNodeMap(function (err, nodes) {
             if (!err) {
-              var ICID = []; //Items
+              var ICID = []; //All Items
+              var OCID = []; //Optics Items
+              var SCID = []; //Suppressor Items
+              var LCID = []; //Lights Items
               for (const i in nodes) {
                 if (nodes[i].name) {
+                  // console.log(nodes[i].name);
                   //make sure theres a name available
-                  if (nodes[i].name.startsWith("Optic")) {
+                  if (nodes[i].name.startsWith("Accessory")) {
+
+                    if(nodes[i].name.includes("Optic")){
+                      OCID.push(nodes[i].instanceID);
+                    }else if(nodes[i].name.includes("Suppressor")){
+                      SCID.push(nodes[i].instanceID);
+                    }else if(nodes[i].name.includes("Flashlight")){
+                      LCID.push(nodes[i].instanceID);
+                    }
+
                     //Additional Items to be turned on/off named "[NAME]" in Blender
                     _api.hide(nodes[i].instanceID);
                     ICID.push(nodes[i].instanceID);
@@ -168,6 +185,9 @@ const useSketchfabViewer = () => {
                 }
               }
               setItemsCount(ICID);
+              setOpticsCount(OCID);
+              setSuppressorCount(SCID);
+              setLightCount(LCID);
               setNodes(nodes);
             }
           });
@@ -209,6 +229,9 @@ const useSketchfabViewer = () => {
     api,
     nodes,
     itemsCount,
+    opticsCount,
+    lightCount,
+    suppressorCount,
     materials,
     textures,
     annotations
@@ -219,6 +242,9 @@ export const SketchFabViewer = ({
   apiRef,
   nodesRef,
   itemsCountRef,
+  opticsCountRef,
+  lightCountRef,
+  suppressorCountRef,
   materialsRef,
   texturesRef,
   annotaionsRef
@@ -228,6 +254,9 @@ export const SketchFabViewer = ({
     api,
     nodes,
     itemsCount,
+    opticsCount,
+    lightCount,
+    suppressorCount,
     materials,
     textures,
     annotations
@@ -235,6 +264,9 @@ export const SketchFabViewer = ({
 
   nodesRef.current = nodes;
   itemsCountRef.current = itemsCount;
+  opticsCountRef.current = opticsCount;
+  lightCountRef.current = lightCount;
+  suppressorCountRef.current = suppressorCount;
   materialsRef.current = materials;
   texturesRef.current = textures;
   annotaionsRef.current = annotations;

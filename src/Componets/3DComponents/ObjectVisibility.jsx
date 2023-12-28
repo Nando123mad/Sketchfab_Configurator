@@ -28,7 +28,7 @@ export const ObjectVisibility = ( props, apiRef, materials ) => {
             for (var i = 0; i < materials.current.length; i++) {
                 //save out materials
                 var m = materials.current[i];
-                if(props.AccessoryVisibility===7){//special index indicating fully visible object
+                if(props.AccessoryVisibility===9){//special index indicating fully visible object
                     m.channels.Opacity = {
                         enable: true,
                         factor: 1.0,

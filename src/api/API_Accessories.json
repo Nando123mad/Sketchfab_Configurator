@@ -194,6 +194,79 @@
                     "URL": "https://dl.dropboxusercontent.com/scl/fi/wzevo8sxj3s9n4zmeordy/Romeo1PRO-6MOA-FDE.png?rlkey=4y0dqvb8k2r616u6n4crxsg88&dl=0",
                     "URLAltTxt":"Gun Accessory",
                     "TexChange": false
+                },
+                { 
+                    "Company": "Holosun",
+                    "ProductName": "Holosun HS407K X2",
+                    "UID": 700002,
+                    "Price": 379.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/wzevo8sxj3s9n4zmeordy/Romeo1PRO-6MOA-FDE.png?rlkey=4y0dqvb8k2r616u6n4crxsg88&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
+                },
+                { 
+                    "Company": "Holosun",
+                    "ProductName": "EPS CARRY Red MRS",
+                    "UID": 700003,
+                    "Price": 470.58,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/wzevo8sxj3s9n4zmeordy/Romeo1PRO-6MOA-FDE.png?rlkey=4y0dqvb8k2r616u6n4crxsg88&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
+                },
+                { 
+                    "Company": "Riton",
+                    "ProductName": "3 TACTIX MPRD 2",
+                    "UID": 700004,
+                    "Price": 349.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/wzevo8sxj3s9n4zmeordy/Romeo1PRO-6MOA-FDE.png?rlkey=4y0dqvb8k2r616u6n4crxsg88&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
+                },
+                { 
+                    "Company": "Sight Mark",
+                    "ProductName": "Mini Shot A-Spec M3 Micro",
+                    "UID": 700005,
+                    "Price": 99.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/wzevo8sxj3s9n4zmeordy/Romeo1PRO-6MOA-FDE.png?rlkey=4y0dqvb8k2r616u6n4crxsg88&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
+                },
+                { 
+                    "Company": "Trijicon",
+                    "ProductName": "RMR Type 2 Red Dot Sight",
+                    "UID": 700006,
+                    "Price": 731.00,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/wzevo8sxj3s9n4zmeordy/Romeo1PRO-6MOA-FDE.png?rlkey=4y0dqvb8k2r616u6n4crxsg88&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
+                }
+            ]
+        },
+        {
+            "Name" : "Suppressor",
+            "Objects": [
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "Romeo1PRO 3MOA - Black",
+                    "UID": 800000,
+                    "Price": 359.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/cmfq456ys3upltgw3mk21/Romeo1PRO-3MOA-Black.png?rlkey=s6qyjhuszc0owudgakb37mpnu&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
+                }
+            ]
+        },
+        {
+            "Name" : "Flashlight",
+            "Objects": [
+                {
+                    "Company": "Sig Sauer",
+                    "ProductName": "P320 FULL-SIZE 10-ROUND 9MM COYOTE MAGAZINE",
+                    "UID": 900000,
+                    "Price": 49.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/qkdfwektfsxd7mjq2xg20/p320-full-size-10-round-9mm-coyote-magazine.webp?rlkey=qnftg32fglf6tnytc61qcewh8&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
                 }
             ]
         }

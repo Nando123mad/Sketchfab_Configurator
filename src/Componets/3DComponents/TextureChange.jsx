@@ -56,7 +56,7 @@ export const TextureChange = ( props, apiRef, materials ) => {
                                     wrapS: "REPEAT",
                                     wrapT: "REPEAT"
                                 };
-                            }else if(props.AccessorySelection[3] === 800000){//ResetConfig
+                            }else if(props.AccessorySelection[3] === 1000000){//ResetConfig
                                 //Check that the material is not an accessoy
                                 if(!materials.current[i].name.includes("Accessory")){
                                     materials.current[i].channels.AlbedoPBR.texture =  {
@@ -83,7 +83,7 @@ export const TextureChange = ( props, apiRef, materials ) => {
                             apiRef.current.setMaterial(materials.current[i], function(err) {
                                 console.log('Material Assigned')
                             });
-                        }else if(props.AccessorySelection[3] === 800000){
+                        }else if(props.AccessorySelection[3] === 1000000){
                             apiRef.current.setMaterial(materials.current[i], function(err) {
                                 console.log('Material Assigned')
                             });
@@ -107,7 +107,7 @@ export const TextureChange = ( props, apiRef, materials ) => {
                                 wrapS: "REPEAT",
                                 wrapT: "REPEAT"
                             };
-                        }else if(props.AccessorySelection[3] === 800000){
+                        }else if(props.AccessorySelection[3] === 1000000){
                             //Check that the material is not an accessoy
                             if(!materials.current[i].name.includes("Accessory")){
                                 materials.current[i].channels.MetalnessPBR.texture = {
@@ -135,7 +135,7 @@ export const TextureChange = ( props, apiRef, materials ) => {
                                 apiRef.current.setMaterial(materials.current[i], function(err) {
                                     console.log('Material Assigned')
                                 });
-                            }else if(props.AccessorySelection[3] === 800000){
+                            }else if(props.AccessorySelection[3] === 1000000){
                                 apiRef.current.setMaterial(materials.current[i], function(err) {
                                     console.log('Material Assigned')
                                 });
@@ -160,7 +160,7 @@ export const TextureChange = ( props, apiRef, materials ) => {
                                 wrapS: "REPEAT",
                                 wrapT: "REPEAT"
                             };
-                        }else if(props.AccessorySelection[3] === 800000){
+                        }else if(props.AccessorySelection[3] === 1000000){
                             //Check that the material is not an accessoy
                             if(!materials.current[i].name.includes("Accessory")){
                                 materials.current[i].channels.RoughnessPBR.texture =  {
@@ -188,7 +188,7 @@ export const TextureChange = ( props, apiRef, materials ) => {
                                 apiRef.current.setMaterial(materials.current[i], function(err) {
                                     console.log('Material Assigned')
                                 });
-                            }else if(props.AccessorySelection[3] === 800000){
+                            }else if(props.AccessorySelection[3] === 1000000){
                                 apiRef.current.setMaterial(materials.current[i], function(err) {
                                     console.log('Material Assigned')
                                 });
@@ -213,7 +213,7 @@ export const TextureChange = ( props, apiRef, materials ) => {
                                 wrapS: "REPEAT",
                                 wrapT: "REPEAT"
                             };
-                        }else if(props.AccessorySelection[3] === 800000){
+                        }else if(props.AccessorySelection[3] === 1000000){
                             //Check that the material is not an accessoy
                             if(!materials.current[i].name.includes("Accessory")){
                                 materials.current[i].channels.NormalMap.texture =  {
@@ -241,7 +241,7 @@ export const TextureChange = ( props, apiRef, materials ) => {
                                 apiRef.current.setMaterial(materials.current[i], function(err) {
                                     console.log('Material Assigned')
                                 });
-                            }else if(props.AccessorySelection[3] === 800000){
+                            }else if(props.AccessorySelection[3] === 1000000){
                                 apiRef.current.setMaterial(materials.current[i], function(err) {
                                     console.log('Material Assigned')
                                 });

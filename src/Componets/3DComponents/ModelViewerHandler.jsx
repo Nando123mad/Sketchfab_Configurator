@@ -12,7 +12,10 @@ export default function ModelViewerHandler(props) {
 
   const apiRef = useRef(null);
   const nodes = useRef(null);
-  const itemsCount = useRef(null)
+  const itemsCount = useRef(null);
+  const opticsCount = useRef(null);
+  const lightCount = useRef(null);
+  const suppressorCount = useRef(null);
   const materials = useRef(null);
   const textures = useRef(null);
   const annotations = useRef(null);
@@ -23,7 +26,7 @@ export default function ModelViewerHandler(props) {
   //Change Model/Texture
   // TextureChange(props, apiRef, materials);//Change individual texture files
   MaterialChange(props, apiRef, materials, nodes);//Change out entire materials
-  ModelChange(props, apiRef, nodes, itemsCount);
+  ModelChange(props, apiRef, nodes, itemsCount, opticsCount, lightCount, suppressorCount);
 
   //Visibility
   ObjectVisibility(props, apiRef, materials);
@@ -36,6 +39,9 @@ export default function ModelViewerHandler(props) {
       apiRef={apiRef}
       nodesRef={nodes}
       itemsCountRef={itemsCount}
+      opticsCountRef={opticsCount}
+      lightCountRef={lightCount}
+      suppressorCountRef={suppressorCount}
       materialsRef={materials}
       texturesRef={textures}
       annotaionsRef={annotations}

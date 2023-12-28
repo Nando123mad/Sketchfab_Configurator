@@ -22,7 +22,7 @@ function Accessories(props) {
     if(value === accessoryTab){//Clicked on the already selected tab
       //Send accessoryTab index values upstream to change material visibility
       if(accessoryFocus){//already on...so turn off focus
-        props.AccessoryVisibility(7);
+        props.AccessoryVisibility(9);
         elem[value].classList.remove("underline");
       }else{//turn on focus
         props.AccessoryVisibility(value);
@@ -30,8 +30,8 @@ function Accessories(props) {
       }
       setAccessoryFocus(!accessoryFocus);
     }else{
-      //Manually Send accessoryTab index of 7 to change material to full visibility
-      props.AccessoryVisibility(7);
+      //Manually Send accessoryTab index of 9 to change material to full visibility
+      props.AccessoryVisibility(9);
       setAccessoryFocus(false);
 
       //Reset and turn off Annotations
@@ -62,6 +62,9 @@ function Accessories(props) {
     //check if the selection is the already selected accessory
     if(updatedEquipment[accessoryTab] == equipment[accessoryTab]){
       console.log('same Accessory is clicked');
+      props.AccessorySelection([accessoryTab, id, texChange, uid]);
+
+      //turn off item if its an accessory.
     }else{
       // Update the state with the modified array
       setEquipment(updatedEquipment); 
@@ -94,9 +97,10 @@ function Accessories(props) {
 
   function ResetConfig(){
     setEquipment([0,0,0,0,0,0,3])
+    //Also if suppressor is on lets turn it off and change the camera position or atleast make a call to move the camera correctly. 
 
-    //Pass a unique value (800000) that forces a reset on texutres
-    props.AccessorySelection([0, 0, true, 800000]);
+    //Pass a unique value (1000000) that forces a reset on texutres
+    props.AccessorySelection([0, 0, true, 1000000]);
   }
 
   return (
@@ -121,6 +125,8 @@ function Accessories(props) {
             <button onClick={() => AccessoryTabSelection(4)} className="leftside"> Guides & Springs </button>
             <button onClick={() => AccessoryTabSelection(5)} className="leftside"> Magazines </button>
             <button onClick={() => AccessoryTabSelection(6)} className="leftside"> Optics </button>
+            <button onClick={() => AccessoryTabSelection(7)} className="leftside"> Suppressor </button>
+            <button onClick={() => AccessoryTabSelection(8)} className="leftside"> Flashlight </button>
           </div>
         </div>
 
