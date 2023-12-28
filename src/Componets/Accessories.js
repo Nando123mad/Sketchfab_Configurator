@@ -9,7 +9,7 @@ import Dots from "./Dots";
 
 function Accessories(props) {
   const [accessoryTab, setAccessoryTab] = useState(0);//current accessory tab selection
-  const [equipment, setEquipment] = useState([0,0,0,0,0,0,3])//equipment current selection
+  const [equipment, setEquipment] = useState([0,0,0,0,0,0])//equipment current selection
   const [annotationSel, setAnnotationSel] = useState(null);//Annotation Visibility
   const [accessoryFocus, setAccessoryFocus] = useState(false);//Accessory Visibility
 
@@ -62,7 +62,13 @@ function Accessories(props) {
     //check if the selection is the already selected accessory
     if(updatedEquipment[accessoryTab] == equipment[accessoryTab]){
       console.log('same Accessory is clicked');
+      console.log(accessoryTab, id, texChange, uid)
       props.AccessorySelection([accessoryTab, id, texChange, uid]);
+
+
+      updatedEquipment[accessoryTab] = null; 
+      setEquipment(updatedEquipment); 
+      //If above 6 (an accessory) and we want to give the option to 
 
       //turn off item if its an accessory.
     }else{
