@@ -18,7 +18,7 @@ export default function Header(props) {
     props.AccessoriesMenuVisibility(!showAccessories);
     //here we change the canvas size and the opacity of the accesssories tab.
     if (!showAccessories) {
-      document.getElementById("api-frame").setAttribute("style",`width: 130% !important;`);
+      // document.getElementById("api-frame").setAttribute("style",`width: 130% !important;`);
       document.getElementById("load-accessories").setAttribute("style", "opacity: 1; -webkit-animation: fade 2s; animation: fade 2s; pointer-events:initial;");
     }else if (showAccessories){
       document.getElementById("api-frame").setAttribute("style", "width: 100% !important;");
@@ -40,15 +40,15 @@ export default function Header(props) {
         <Dots Bottom Left />
         <Dots Bottom Right />
 
-        <div
+        {/* <div
           className="headerImg"
           onClick={() => {
             AccessoriesMenuVisibility();
           }}
         >
           <img src={showAccessories ? `${Show}` : `${Hide}`} alt="View" className="showImg" />
-        </div>
-        <div className="headerMidFocusBtn">CUSTOM WORKS STUDIO - P320</div>
+        </div> */}
+        <div className="headerMidFocusBtn">TANGO-DMR 3-18X44MM</div>
         <Link to="/myvault" className="vaultBtn">
           MY VAULT
         </Link>
@@ -69,7 +69,7 @@ export default function Header(props) {
 
           <div className="headerTopRightBtns">
             <div className="headerRFocusBtn">
-              AS CONFIGURED <h3> &nbsp; $1,029.94</h3>
+              AS CONFIGURED <h3> &nbsp; $1,299.99</h3>
             </div>
             <Link to="/checkout" className="subimtOrderBtn">
               SUBMIT ORDER

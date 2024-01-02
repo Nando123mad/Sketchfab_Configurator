@@ -244,7 +244,7 @@
 #api-frame{
   border: none;
   position: absolute;
-  width: 130% !important;
+  width: 100% !important;
   /* Changed for getting gun in center */
   height: 100%;
   top: 0;

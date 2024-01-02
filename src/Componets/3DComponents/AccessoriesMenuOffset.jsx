@@ -20,11 +20,11 @@ export const AccessoriesMenuOffset = (props, apiRef) => {
 
         //if suppressor on{ Change position of camera and target }
         //[position, target,duration]
-        apiRef.current.setCameraLookAt(
-          [-0.352825848627620646, -0.1, -0.05],//position
-          [0.0, -0.025, -0.00005610803206950726],//target 
-          2.0//duration
-        );
+        // apiRef.current.setCameraLookAt(
+        //   [-0.352825848627620646, -0.1, -0.05],//position
+        //   [0.0, -0.025, -0.00005610803206950726],//target 
+        //   2.0//duration
+        // );
 
       } else {
         console.log("move center");
@@ -32,11 +32,11 @@ export const AccessoriesMenuOffset = (props, apiRef) => {
         //TODO This should be dynamic by taking in screen width information for proper centering
 
         //if suppressor on{ Change position of camera and target }
-        apiRef.current.setCameraLookAt(
-          [-0.312825848627620646, -0.025, 0.0],
-          [0.0, -0.025, -0.00005610803206950726],
-          2.0
-        );
+        // apiRef.current.setCameraLookAt(
+        //   [-0.312825848627620646, -0.025, 0.0],
+        //   [0.0, -0.025, -0.00005610803206950726],
+        //   2.0
+        // );
 
         
       }
