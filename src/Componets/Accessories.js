@@ -63,6 +63,10 @@ function Accessories(props) {
     if(updatedEquipment[accessoryTab] == equipment[accessoryTab]){
       console.log('same Accessory is clicked');
       console.log(accessoryTab, id, texChange, uid)
+      if(uid===800000){
+        console.log('offset camera: false')
+        props.CameraOffset(false);
+      }
       props.AccessorySelection([accessoryTab, id, texChange, uid]);
 
 
@@ -74,7 +78,10 @@ function Accessories(props) {
     }else{
       // Update the state with the modified array
       setEquipment(updatedEquipment); 
-  
+      if(uid===800000){
+        console.log('offset camera: true')
+        props.CameraOffset(true);
+      }
       //Send values to parent
       props.AccessorySelection([accessoryTab, id, texChange, uid]);
 

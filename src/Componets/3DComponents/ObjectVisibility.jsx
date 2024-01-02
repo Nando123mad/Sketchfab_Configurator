@@ -100,7 +100,6 @@ export const ObjectVisibility = ( props, apiRef, materials ) => {
                         if(materials.current[i].name.endsWith(props.AccessoryVisibility)){
                             if( materials.current[i].name.match(/^\d/) ){ 
                                 if(materials.current[i].name.startsWith(props.AccessorySelection[1])){
-
                                     console.log('Material Assigned')
                                     console.log(materials.current[i].name)
                                     console.log("Its this accessory that should be getting changed: "+ props.AccessorySelection[1])

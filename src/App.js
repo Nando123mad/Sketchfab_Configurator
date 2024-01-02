@@ -23,6 +23,7 @@ function App() {
   const [AccessorySelection,setAccessorySelection] = useState([0, 0, true, 1000000])
   const [AccessoryVisibility,setAccessoryVisibility] = useState(9)
   const [AnnotationVisibility,setAnnotationVisibility] = useState(false)
+  const [CameraOffset,setCameraOffset] = useState(false)
 
   return (
     <>
@@ -31,9 +32,9 @@ function App() {
       <LoadingScreen/>
       <Header AccessoriesMenuVisibility={(value) => { setMenuVisability(value); setAnnotationVisibility(false)}} />
       <img className='LogoMark' src={LogoMark} alt="Logo Mark" />
-      <Accessories AccessorySelection={(value)=>{ setAccessorySelection(value) }} AccessoryVisibility={(value)=>{ setAccessoryVisibility(value) }} AnnotationVisibility={(value)=>{ setAnnotationVisibility(value)}}  />
+      <Accessories AccessorySelection={(value)=>{ setAccessorySelection(value) }} AccessoryVisibility={(value)=>{ setAccessoryVisibility(value) }} AnnotationVisibility={(value)=>{ setAnnotationVisibility(value)}}  CameraOffset={(value)=>{setCameraOffset(value)}}/>
       {/* <img className='gunImg' src={Gun} alt="Gun Image" /> */}
-      <ModelViewerHandler AccessoriesMenuVisibility={MenuVisability} AccessorySelection={AccessorySelection} AccessoryVisibility={AccessoryVisibility} AnnotationVisibility={AnnotationVisibility} />
+      <ModelViewerHandler AccessoriesMenuVisibility={MenuVisability} AccessorySelection={AccessorySelection} AccessoryVisibility={AccessoryVisibility} AnnotationVisibility={AnnotationVisibility} CameraOffset={CameraOffset}/>
       {/* <img src={AmbientLeft} alt="Yellow Ambient Graphic" className='AmbientLeft' /> */}
       {/* <img src={AmbientRight} alt="Yellow Ambient Graphic" className='AmbientRight' /> */}
     </div>

@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/sigsauerconfig/static/css/main.b2fb33d3.css",
-    "main.js": "/sigsauerconfig/static/js/main.2df92bab.js",
+    "main.css": "/sigsauerconfig/static/css/main.4718a06f.css",
+    "main.js": "/sigsauerconfig/static/js/main.bd53f81a.js",
     "static/js/787.8e518413.chunk.js": "/sigsauerconfig/static/js/787.8e518413.chunk.js",
     "static/media/SIG - Vault Page-scale.png": "/sigsauerconfig/static/media/SIG - Vault Page-scale.8ce3ff84d4f1835576c8.png",
     "static/media/Custom Works P320 - Checkout-scale.png": "/sigsauerconfig/static/media/Custom Works P320 - Checkout-scale.51ace7a90c4d940a0ea8.png",
     "static/media/Logo-mark.png": "/sigsauerconfig/static/media/Logo-mark.6397ebce4cc1ab943d8c.png",
     "static/media/information.svg": "/sigsauerconfig/static/media/information.754ae3db27a6b545aef78d7f71bb50e0.svg",
     "index.html": "/sigsauerconfig/index.html",
-    "main.b2fb33d3.css.map": "/sigsauerconfig/static/css/main.b2fb33d3.css.map",
-    "main.2df92bab.js.map": "/sigsauerconfig/static/js/main.2df92bab.js.map",
+    "main.4718a06f.css.map": "/sigsauerconfig/static/css/main.4718a06f.css.map",
+    "main.bd53f81a.js.map": "/sigsauerconfig/static/js/main.bd53f81a.js.map",
     "787.8e518413.chunk.js.map": "/sigsauerconfig/static/js/787.8e518413.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2fb33d3.css",
-    "static/js/main.2df92bab.js"
+    "static/css/main.4718a06f.css",
+    "static/js/main.bd53f81a.js"
   ]
 }

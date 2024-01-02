@@ -5,7 +5,7 @@ import { useRef, useEffect } from 'react';
 import { useIsMount } from '../useIsMount';
 
 //*********REFRENCE**************/
-    //props.AccessorySelection[]
+    //props.AccessorySelection[] 
     //AccessorieID(int), ObjectID(int), TextureChange(bool), UID(int)
 //*********REFRENCE**************/
 
@@ -20,7 +20,7 @@ export const MaterialChange = ( props, apiRef, materials, nodes ) => {
             console.log("MATCHANGE")
             //TODO:Setting this manually is bad and not scalable. This was only done to select the materials within objects that contained multiple materials
             //In this setup we manually search and store the values of the location of the materials we know will be changed out. 
-            const objectsStateID = [11,8,28,7]//Accessories material setID Manually set. 
+            const objectsStateID = [4,2,29,1]//[FCU, Base, Slide, Barrel] [Accessories material setID Manually set. 
 
             if(props.AccessorySelection[2]){//confirms that it will be a texture change. (props.AccessorySelection[2] returns true or false)
 

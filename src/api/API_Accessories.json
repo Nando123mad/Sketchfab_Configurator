@@ -178,65 +178,65 @@
             "Name" : "Optics",
             "Objects": [
                 {
-                    "Company": "Sig Sauer",
-                    "ProductName": "Romeo1PRO 3MOA - Black",
+                    "Company": "Holosun",
+                    "ProductName": "Optics Option 1",
                     "UID": 700000,
-                    "Price": 359.99,
-                    "URL": "https://dl.dropboxusercontent.com/scl/fi/cmfq456ys3upltgw3mk21/Romeo1PRO-3MOA-Black.png?rlkey=s6qyjhuszc0owudgakb37mpnu&dl=0",
+                    "Price": 429.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/1n58oq6v6y9t7s396vx50/HolosunEPSCarry.png?rlkey=3y28eum1hgt5v94g1euemizyd&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
+                },
+                { 
+                    "Company": "Holosun",
+                    "ProductName": "Optics Option 2",
+                    "UID": 700001,
+                    "Price": 341.16,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/i9mpnf1nqxk3nr96hn572/HolosunHS407K.png?rlkey=esouihh6jrcjierdmmxpnqva1&dl=0",
                     "URLAltTxt":"Gun Accessory",
                     "TexChange": false
                 },
                 { 
                     "Company": "Sig Sauer",
-                    "ProductName": "Romeo1PRO 6MOA - FDE",
-                    "UID": 700001,
-                    "Price": 379.99,
-                    "URL": "https://dl.dropboxusercontent.com/scl/fi/wzevo8sxj3s9n4zmeordy/Romeo1PRO-6MOA-FDE.png?rlkey=4y0dqvb8k2r616u6n4crxsg88&dl=0",
-                    "URLAltTxt":"Gun Accessory",
-                    "TexChange": false
-                },
-                { 
-                    "Company": "Holosun",
-                    "ProductName": "Holosun HS407K X2",
+                    "ProductName": "Optics Option 3",
                     "UID": 700002,
-                    "Price": 379.99,
-                    "URL": "https://dl.dropboxusercontent.com/scl/fi/wzevo8sxj3s9n4zmeordy/Romeo1PRO-6MOA-FDE.png?rlkey=4y0dqvb8k2r616u6n4crxsg88&dl=0",
+                    "Price": 339.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/whaw8p7hthv9mztzs34ku/Romeo1.png?rlkey=pxupmh0ao5qnnaawfmrr4pta5&dl=0",
                     "URLAltTxt":"Gun Accessory",
                     "TexChange": false
                 },
                 { 
-                    "Company": "Holosun",
-                    "ProductName": "EPS CARRY Red MRS",
+                    "Company": "Riton Optics",
+                    "ProductName": "Optics Option 4",
                     "UID": 700003,
                     "Price": 470.58,
-                    "URL": "https://dl.dropboxusercontent.com/scl/fi/wzevo8sxj3s9n4zmeordy/Romeo1PRO-6MOA-FDE.png?rlkey=4y0dqvb8k2r616u6n4crxsg88&dl=0",
-                    "URLAltTxt":"Gun Accessory",
-                    "TexChange": false
-                },
-                { 
-                    "Company": "Riton",
-                    "ProductName": "3 TACTIX MPRD 2",
-                    "UID": 700004,
-                    "Price": 349.99,
-                    "URL": "https://dl.dropboxusercontent.com/scl/fi/wzevo8sxj3s9n4zmeordy/Romeo1PRO-6MOA-FDE.png?rlkey=4y0dqvb8k2r616u6n4crxsg88&dl=0",
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/fpykcaa6v97rvq4qq59sv/RitonMPRD.png?rlkey=qvkygkpelp464hp35rztfda78&dl=0",
                     "URLAltTxt":"Gun Accessory",
                     "TexChange": false
                 },
                 { 
                     "Company": "Sight Mark",
-                    "ProductName": "Mini Shot A-Spec M3 Micro",
+                    "ProductName": "Optics Option 5",
+                    "UID": 700004,
+                    "Price": 349.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/v8ufhs8t8yom8j5qrql29/SightMarkMini.png?rlkey=8qdl7sm1xhycq7341840b0miy&dl=0",
+                    "URLAltTxt":"Gun Accessory",
+                    "TexChange": false
+                },
+                { 
+                    "Company": "Sig Sauer",
+                    "ProductName": "Optics Option 5",
                     "UID": 700005,
                     "Price": 99.99,
-                    "URL": "https://dl.dropboxusercontent.com/scl/fi/wzevo8sxj3s9n4zmeordy/Romeo1PRO-6MOA-FDE.png?rlkey=4y0dqvb8k2r616u6n4crxsg88&dl=0",
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/dzvl4tx142pfmznb3u2tz/SigSight.png?rlkey=uzubizt9usfqzm31306yz2mco&dl=0",
                     "URLAltTxt":"Gun Accessory",
                     "TexChange": false
                 },
                 { 
                     "Company": "Trijicon",
-                    "ProductName": "RMR Type 2 Red Dot Sight",
+                    "ProductName": "Optics Option 6",
                     "UID": 700006,
-                    "Price": 731.00,
-                    "URL": "https://dl.dropboxusercontent.com/scl/fi/wzevo8sxj3s9n4zmeordy/Romeo1PRO-6MOA-FDE.png?rlkey=4y0dqvb8k2r616u6n4crxsg88&dl=0",
+                    "Price": 729.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/5wap3d7jqtmpi24plco18/Trijicon.png?rlkey=g0w6ymm18rob1d36ytajim771&dl=0",
                     "URLAltTxt":"Gun Accessory",
                     "TexChange": false
                 }
@@ -246,11 +246,11 @@
             "Name" : "Suppressor",
             "Objects": [
                 {
-                    "Company": "Sig Sauer",
-                    "ProductName": "Romeo1PRO 3MOA - Black",
+                    "Company": "Rugged Suppressors",
+                    "ProductName": "Suppressor Option 1",
                     "UID": 800000,
                     "Price": 359.99,
-                    "URL": "https://dl.dropboxusercontent.com/scl/fi/cmfq456ys3upltgw3mk21/Romeo1PRO-3MOA-Black.png?rlkey=s6qyjhuszc0owudgakb37mpnu&dl=0",
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/ne0vnwdm5b87hl4o5jiro/Suppressor_Sig.png?rlkey=ii5d7xbdha58psfzr2lvhatf6&dl=0",
                     "URLAltTxt":"Gun Accessory",
                     "TexChange": false
                 }
@@ -261,10 +261,10 @@
             "Objects": [
                 {
                     "Company": "Sig Sauer",
-                    "ProductName": "P320 FULL-SIZE 10-ROUND 9MM COYOTE MAGAZINE",
+                    "ProductName": "Rail Mounted Flashlight Option 1",
                     "UID": 900000,
-                    "Price": 49.99,
-                    "URL": "https://dl.dropboxusercontent.com/scl/fi/qkdfwektfsxd7mjq2xg20/p320-full-size-10-round-9mm-coyote-magazine.webp?rlkey=qnftg32fglf6tnytc61qcewh8&dl=0",
+                    "Price": 69.99,
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/wtbxa8fcixvuwkzave931/FlashLight_Sig.png?rlkey=7dkiqcusj534hmewureurn1gm&dl=0",
                     "URLAltTxt":"Gun Accessory",
                     "TexChange": false
                 }
