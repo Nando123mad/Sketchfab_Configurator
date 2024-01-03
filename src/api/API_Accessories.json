@@ -63,7 +63,7 @@
                     "ProductName": "STANDARD 4.7IN SLIDE ASSY - 9 - BLACK",
                     "UID": 300000,
                     "Price": 279.99,
-                    "URL": "https://www.sigsauer.com/media/configurator/P320/images/slide/8900113-thumb.png",
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/wzs8qcda21gggvbmrgdt2/SliderDefault.png?rlkey=gsbt8538loc8v7fgersteuq05&dl=0",
                     "URLAltTxt":"Gun Accessory",
                     "TexChange": true
                 },
@@ -72,7 +72,7 @@
                     "ProductName": "SPECTRE 3.9 IN SLIDE ASSEMBLY - COYOTE",
                     "UID": 300001,
                     "Price": 449.99,
-                    "URL": "https://www.sigsauer.com/media/configurator/P320/images/slide/8900841-thumb.png",
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/8gkvmd5gka1r3481poew8/SliderCoyote.png?rlkey=o18vu0kcvafffnbf2cg20hrwa&dl=0",
                     "URLAltTxt":"Gun Accessory",
                     "TexChange": true
                 },
@@ -81,7 +81,7 @@
                     "ProductName": "SPECTRE 3.9 IN SLIDE ASSEMBLY - Tungsten",
                     "UID": 300002,
                     "Price": 449.99,
-                    "URL": "https://www.sigsauer.com/media/configurator/P320/images/slide/8900840-thumb.png",
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/biuhj0uehwwpq7qbsgxdq/SliderTungsten.png?rlkey=346y3kbdtkjzqnxkw1buw5chb&dl=0",
                     "URLAltTxt":"Gun Accessory",
                     "TexChange": true
                 }
@@ -95,7 +95,7 @@
                     "ProductName": "FULL BARREL 4.7IN - BLACK",
                     "UID": 400000,
                     "Price": 179.99,
-                    "URL": "https://dl.dropboxusercontent.com/scl/fi/comgclkwkx6mvtb42hkjz/P320_FULL_SIZE_9MM_THREADED_BARREL.webp?rlkey=j8h3qj1r6gzwpdjbrfrd9g2q9&dl=0",
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/w0rxuy4k5elxk76i0sm2m/BarrelBlk.png?rlkey=05wzvta0njr9awt0huz6ffxll&dl=0",
                     "URLAltTxt":"Gun Accessory",
                     "TexChange": true
                 },
@@ -104,18 +104,9 @@
                     "ProductName": "P320 COMPACT, CARRY GOLD 9MM THREADED BARREL, NO LCI, 4.6IN",
                     "UID": 400001,
                     "Price": 279.99,
-                    "URL": "https://dl.dropboxusercontent.com/scl/fi/3xnwglps5ep1hms1ie0ji/p320-compact-gold-9mm-barrel.webp?rlkey=v7votttt91fn4kcyd8zyx1ddq&dl=0",
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/holj7shbqo0yywigmfng5/BarrelGld.png?rlkey=yzilcg69q11g9hfmxzodam2cm&dl=0",
                     "URLAltTxt":"Gun Accessory",
                     "TexChange": true
-                },
-                {
-                    "Company": "Sig Sauer",
-                    "ProductName": "COMP/CARRY BARREL 3.9IN - GOLD",
-                    "UID": 400002,
-                    "Price": 229.99,
-                    "URL": "https://www.sigsauer.com/media/configurator/P320/images/barrels/8900790-thumb.png",
-                    "URLAltTxt":"Gun Accessory",
-                    "TexChange": false
                 }
             ]
         },

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sigsauerconfig/static/css/main.4718a06f.css",
-    "main.js": "/sigsauerconfig/static/js/main.bd53f81a.js",
+    "main.js": "/sigsauerconfig/static/js/main.32ad88ad.js",
     "static/js/787.8e518413.chunk.js": "/sigsauerconfig/static/js/787.8e518413.chunk.js",
     "static/media/SIG - Vault Page-scale.png": "/sigsauerconfig/static/media/SIG - Vault Page-scale.8ce3ff84d4f1835576c8.png",
     "static/media/Custom Works P320 - Checkout-scale.png": "/sigsauerconfig/static/media/Custom Works P320 - Checkout-scale.51ace7a90c4d940a0ea8.png",
@@ -9,11 +9,11 @@
     "static/media/information.svg": "/sigsauerconfig/static/media/information.754ae3db27a6b545aef78d7f71bb50e0.svg",
     "index.html": "/sigsauerconfig/index.html",
     "main.4718a06f.css.map": "/sigsauerconfig/static/css/main.4718a06f.css.map",
-    "main.bd53f81a.js.map": "/sigsauerconfig/static/js/main.bd53f81a.js.map",
+    "main.32ad88ad.js.map": "/sigsauerconfig/static/js/main.32ad88ad.js.map",
     "787.8e518413.chunk.js.map": "/sigsauerconfig/static/js/787.8e518413.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4718a06f.css",
-    "static/js/main.bd53f81a.js"
+    "static/js/main.32ad88ad.js"
   ]
 }

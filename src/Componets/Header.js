@@ -82,15 +82,11 @@ export default function Header(props) {
           <div className="saveButton">
             <Dots Bottom Left />
             <Dots Bottom Right />
-            <Link to="/scope" className="saveBtn ">
+            <a className="saveBtn" href="http://clients.yeswearemad.com/sigsauerconfig/scope/" onclick="MyFunction();return false;">
               <img src={SaveImg} alt="Save Icon" className="saveImg" />
-            </Link>
+            </a>
             <div className="saveText">
-              <Link to="/scope" onClick={()=>{window.location.reload()}} className="saveBtn ">
-                SAVE
-              </Link>
-              <a id="myLink" href="http://clients.yeswearemad.com/sigsauerconfig/scope/" onclick="MyFunction();return false;">link text</a>
-              
+              <a className="saveBtn" href="http://clients.yeswearemad.com/sigsauerconfig/scope/" onclick="MyFunction();return false;">SAVE</a>
             </div>
           </div>
         </div>
