@@ -82,9 +82,10 @@ export default function Header(props) {
           <div className="saveButton">
             <Dots Bottom Left />
             <Dots Bottom Right />
-
-            <img src={SaveImg} alt="Save Icon" className="saveImg" />
-            <div className="saveText">SAVE</div>
+            <a href="http://clients.yeswearemad.com/sigsauerconfig/" className="saveText">
+              <img src={SaveImg} alt="Save Icon" className="saveImg" />
+            </a>
+            <a href="http://clients.yeswearemad.com/sigsauerconfig/" className="saveText">SAVE</a>
           </div>
         </div>
       </div>

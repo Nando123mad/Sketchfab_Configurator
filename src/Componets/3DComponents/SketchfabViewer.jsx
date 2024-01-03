@@ -5,7 +5,7 @@ import Annotation from "../../Images/Annotation.png";
 
 // Our wonderful chair model
 // let MODEL_UID = "dd210b5271e244bf91b3cfe923aec6bd";
-let MODEL_UID = "08f66198db644577a812fa233f060890";
+let MODEL_UID = "99159c6b9acb4f1694f36a23f5ba31c5";
 // 388160ef3a1645f7a54aa39498554cef
 // let MODEL_UID ="1b718a23d03e48d78366b388e2256eb6";
 

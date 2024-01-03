@@ -100,6 +100,7 @@
     width: 7.708vw;
     height: 4.44vh;
     position: relative;
+    text-decoration: none;
 }
 
 .headerRightBtns {
@@ -170,6 +171,8 @@
 
 .saveText {
     font-size: 0.83vw;
+    text-decoration: none;
+    color: white;
 }
 
 @media (max-width: 1891px) {
