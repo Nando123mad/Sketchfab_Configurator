@@ -19,8 +19,8 @@ export const MaterialChange = ( props, apiRef, materials, nodes ) => {
         }else{
             console.log("MATCHANGE")
             //TODO:Setting this manually is bad and not scalable. This was only done to select the materials within objects that contained multiple materials
-            //In this setup we manually search and store the values of the location of the materials we know will be changed out. 
-            const objectsStateID = [4,1,29,3]//[FCU, Base, Slide, Barrel] [Accessories material setID Manually set. 
+            //In this setup we manually search and store the values of the location of the materials that we know will be changed out. (this requires printing out to console the material information so that we can manually set the setID)
+            const objectsStateID = [4,2,30,1]//[FCU, Base, Slide, Barrel] [Accessories material setID Manually set. 
 
             if(props.AccessorySelection[2]){//confirms that it will be a texture change. (props.AccessorySelection[2] returns true or false)
 

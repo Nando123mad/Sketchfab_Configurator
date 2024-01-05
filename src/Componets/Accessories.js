@@ -111,7 +111,7 @@ function Accessories(props) {
   function ResetConfig(){
     setEquipment([0,0,0,0,0,0,3])
     //Also if suppressor is on lets turn it off and change the camera position or atleast make a call to move the camera correctly. 
-
+    props.CameraOffset(false);
     //Pass a unique value (1000000) that forces a reset on texutres
     props.AccessorySelection([0, 0, true, 1000000]);
   }

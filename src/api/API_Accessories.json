@@ -5,7 +5,7 @@
             "Objects": [
                 {
                     "Company": "Sig Sauer",
-                    "ProductName": "P320 Fire Control Unit - Black",
+                    "ProductName": "P320 FIRE CONTROL UNIT - BLACK",
                     "UID": 100000,
                     "Price": 119.99,
                     "URL": "https://dl.dropboxusercontent.com/scl/fi/6ck92g4bdwp0h2e8fpcty/320-fcu-black.webp?rlkey=zrl7wrxseifwa6oisbqobbh06&dl=0",
@@ -14,7 +14,7 @@
                 },
                 {
                     "Company": "Sig Sauer",
-                    "ProductName": "P320 Fire Control Unit - Gold" ,
+                    "ProductName": "P320 FIRE CONTROL UNIT - GOLD" ,
                     "UID": 100001, 
                     "Price": 119.99,
                     "URL": "https://dl.dropboxusercontent.com/scl/fi/d14e4smj783lf9s2s5z79/p320-fcu.webp?rlkey=97y9hppkfkn3nkv2jfu58d7y5&dl=0",
@@ -28,7 +28,7 @@
             "Objects": [
                 {
                     "Company": "Sig Sauer",
-                    "ProductName": "P320 XCARRY LASER ENGRAVED LXG - BLACK",
+                    "ProductName": "P320 XCARRY MEDIUM - BLACK",
                     "UID": 200000,
                     "Price": 69.99,
                     "URL": "https://www.sigsauer.com/media/configurator/P320/images/grip-mod/8900820-thumb.png",
@@ -37,7 +37,7 @@
                 },
                 {
                     "Company": "Sig Sauer",
-                    "ProductName": "P320 XCARRY LASER ENGRAVED LXG GRIP MODULE - COYOTE 3.9IN",
+                    "ProductName": "P320 XCARRY MEDIUM - COYOTE",
                     "UID": 200001,
                     "Price": 99.99,
                     "URL": "https://dl.dropboxusercontent.com/scl/fi/hhxg000ztyl6kf928ffin/p320-xcarry-laser-engraved-lxg-grip-module-coyote-39in.webp?rlkey=5jfw0mjp11a75dhbiywu7qz2v&dl=0",
@@ -46,10 +46,10 @@
                 },
                 {
                     "Company": "Sig Sauer",
-                    "ProductName": "P320 AXG CARRY MEDIUM GRIP MODULE-TITANIUM CERAKOTE-BLK PANELS",
+                    "ProductName": "P320 XCARRY MEDIUM- BLACK CERAKOTE",
                     "UID": 200002,
                     "Price": 399.99,
-                    "URL": "https://dl.dropboxusercontent.com/scl/fi/3uheoi5k6xfypxw03f2je/p320-axg-carry-medium-grip-module-titanium-cerakote-blk-panels.webp?rlkey=y5a1hlne5rj7ak4xsmctjc7xv&dl=0",
+                    "URL": "https://dl.dropboxusercontent.com/scl/fi/0libmexze8wt9cnj4fn4f/Black_Cerakote.png?rlkey=8zjqjcqyufjjqfbplucsvcyu5&dl=0",
                     "URLAltTxt":"Gun Accessory",
                     "TexChange": true
                 }
@@ -69,7 +69,7 @@
                 },
                 {
                     "Company": "Sig Sauer",
-                    "ProductName": "SPECTRE 3.9 IN SLIDE ASSEMBLY - COYOTE",
+                    "ProductName": "STANDARD 4.7IN SLIDE ASSY - 9 - COYOTE",
                     "UID": 300001,
                     "Price": 449.99,
                     "URL": "https://dl.dropboxusercontent.com/scl/fi/8gkvmd5gka1r3481poew8/SliderCoyote.png?rlkey=o18vu0kcvafffnbf2cg20hrwa&dl=0",
@@ -78,7 +78,7 @@
                 },
                 {
                     "Company": "Sig Sauer",
-                    "ProductName": "SPECTRE 3.9 IN SLIDE ASSEMBLY - Tungsten",
+                    "ProductName": "STANDARD 4.7IN SLIDE ASSY - 9 - BLACK CERAKOTE ",
                     "UID": 300002,
                     "Price": 449.99,
                     "URL": "https://dl.dropboxusercontent.com/scl/fi/biuhj0uehwwpq7qbsgxdq/SliderTungsten.png?rlkey=346y3kbdtkjzqnxkw1buw5chb&dl=0",
@@ -101,7 +101,7 @@
                 },
                 {
                     "Company": "Sig Sauer",
-                    "ProductName": "P320 COMPACT, CARRY GOLD 9MM THREADED BARREL, NO LCI, 4.6IN",
+                    "ProductName": "FULL BARREL 4.7IN - GOLD",
                     "UID": 400001,
                     "Price": 279.99,
                     "URL": "https://dl.dropboxusercontent.com/scl/fi/holj7shbqo0yywigmfng5/BarrelGld.png?rlkey=yzilcg69q11g9hfmxzodam2cm&dl=0",

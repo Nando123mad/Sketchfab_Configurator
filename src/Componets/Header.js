@@ -82,11 +82,11 @@ export default function Header(props) {
           <div className="saveButton">
             <Dots Bottom Left />
             <Dots Bottom Right />
-            <a className="saveBtn" href="http://clients.yeswearemad.com/sigsauerconfig/scope/" onclick="MyFunction();return false;">
+            <a className="saveBtn" href="http://clients.yeswearemad.com/sigsauerconfig/scope/">
               <img src={SaveImg} alt="Save Icon" className="saveImg" />
             </a>
             <div className="saveText">
-              <a className="saveBtn" href="http://clients.yeswearemad.com/sigsauerconfig/scope/" onclick="MyFunction();return false;">SAVE</a>
+              <a className="saveBtn" href="http://clients.yeswearemad.com/sigsauerconfig/scope/" >SAVE</a>
             </div>
           </div>
         </div>

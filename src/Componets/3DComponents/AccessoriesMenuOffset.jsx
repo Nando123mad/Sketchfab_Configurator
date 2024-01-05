@@ -25,7 +25,7 @@ export const AccessoriesMenuOffset = (props, apiRef) => {
           //[position, target,duration]
           console.log('suppressor on')
           apiRef.current.setCameraLookAt(
-            [-0.4, -0.5, -0.05],//position
+            [-0.4, -0.4, -0.05],//position
             [0.0, -0.075, -0.00005610803206950726],//target 
             2.0//duration
           );

@@ -36,7 +36,7 @@ export const ObjectVisibility = ( props, apiRef, materials ) => {
                         objTexture
                     };
 
-                    if(m.name.includes("OpticB")){
+                    if(m.name.includes("Glass") || m.name.includes("OpticB") ){
                         m.channels.Opacity = {
                             enable: true,
                             factor: 0,
@@ -88,7 +88,7 @@ export const ObjectVisibility = ( props, apiRef, materials ) => {
                             type:"dithering",
                             objTexture
                         };
-                        if(m.name.includes("OpticB")){
+                        if(m.name.includes("Glass") || m.name.includes("OpticB") ){
                             m.channels.Opacity = {
                                 enable: true,
                                 factor: 0,
